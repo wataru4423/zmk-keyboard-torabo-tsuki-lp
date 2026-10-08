@@ -23,7 +23,7 @@
 &kp TAB    &kp Q      &kp W        &kp E       &kp R                   &kp T                                                         &kp Y        &kp U         &kp I      &kp O      &kp P      &kp MINUS
 &kp LALT   &kp A      &kp S        &kp D       &mt LS(LA(LC(LGUI))) F  &kp G        &mkp LCLK                  &mkp RCLK             &kp H        &kp J         &kp K      &kp L      &kp SEMI   &kp SQT
 &kp LCTRL  &kp Z      &kp X        &kp C       &kp V                   &kp B        &kp BACKSPACE              &kp DEL               &kp N        &kp M         &kp COMMA  &kp DOT    &kp SLASH  &kp RSHFT
-&kp CAPS   &kp GLOBE  &kp AT_SIGN  &kp DOLLAR  &kp LGUI                &lt 2 SPACE  &mt LEFT_SHIFT LANGUAGE_2  &mt LCTRL LANGUAGE_1  &lt 3 ENTER  &mt RGUI ESC  &kp HASH   &kp GRAVE  &kp GLOBE  &kp RA(RC(RS(RGUI)))
+&kp CAPS   &kp GLOBE  &kp AT_SIGN  &kp DOLLAR  &kp LGUI                &lt 3 SPACE  &mt LEFT_SHIFT LANGUAGE_2  &mt LCTRL LANGUAGE_1  &lt 2 ENTER  &mt RGUI ESC  &kp HASH   &kp GRAVE  &kp GLOBE  &kp RA(RC(RS(RGUI)))
             >;
         };
 
@@ -39,21 +39,21 @@
 
         layer_2 {
             bindings = <
-&trans  &trans           &trans        &trans        &trans        &trans                               &trans         &trans                &trans                 &trans         &trans     &trans
-&trans  &kp EXCLAMATION  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERCENT                          &kp CARET      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AMPERSAND  &kp TILDE  &trans
-&trans  &trans           &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS      &trans  &trans         &kp MINUS      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE       &trans     &trans
-&trans  &trans           &kp N7        &kp N8        &kp N9        &kp ASTERISK  &trans  &trans         &kp LS(MINUS)  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSLASH  &trans     &trans
-&trans  &trans           &trans        &trans        &kp NUMBER_0  &trans        &trans  &kp LESS_THAN  &kp EQUAL      &kp GREATER_THAN      &trans                 &trans         &trans     &trans
+&trans  &trans           &trans         &trans            &trans        &trans                        &trans         &trans                &trans                 &trans         &trans     &trans
+&trans  &kp EXCLAMATION  &kp N7         &kp NUMBER_8      &kp NUMBER_9  &kp PERCENT                   &kp CARET      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AMPERSAND  &kp TILDE  &trans
+&trans  &trans           &kp NUMBER_4   &kp NUMBER_5      &kp NUMBER_6  &kp PLUS      &trans  &trans  &kp MINUS      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL      &trans     &trans
+&trans  &trans           &kp NUMBER_1   &kp NUMBER_2      &kp NUMBER_3  &kp ASTERISK  &trans  &trans  &kp LS(MINUS)  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSLASH  &trans     &trans
+&trans  &trans           &kp LESS_THAN  &kp GREATER_THAN  &kp NUMBER_0  &kp PERIOD    &trans  &trans  &trans         &trans                &trans                 &trans         &trans     &trans
             >;
         };
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans      &trans                         &trans            &trans     &trans         &trans     &trans           &trans
-&trans  &trans  &kp F1  &kp F2  &kp F3      &kp F10                        &kp HOME          &kp PG_UP  &kp PAGE_DOWN  &kp END    &kp PRINTSCREEN  &trans
-&trans  &trans  &kp F4  &kp F5  &kp F6      &kp F11        &trans  &trans  &kp LEFT          &kp DOWN   &kp UP_ARROW   &kp RIGHT  &kp TAB          &trans
-&trans  &trans  &kp F7  &kp F8  &kp F9      &kp F12        &trans  &trans  &kp SINGLE_QUOTE  &kp DQT    &kp GRAVE      &kp TILDE  &kp PIPE         &trans
-&trans  &trans  &trans  &trans  &kp DELETE  &kp BACKSPACE  &trans  &trans  &trans            &trans     &trans         &trans     &trans           &trans
+&trans  &trans  &trans     &trans             &trans            &trans                            &trans    &trans         &trans        &trans     &trans   &trans
+&kp F1  &kp F2  &kp F3     &kp F4             &kp F5            &kp F6                            &kp F7    &kp F8         &kp F9        &kp F10    &kp F11  &kp F12
+&trans  &trans  &kp PIPE   &kp CARET          &kp DOLLAR        &trans         &trans  &trans     &kp LEFT  &kp DOWN       &kp UP_ARROW  &kp RIGHT  &trans   &trans
+&trans  &trans  &kp GRAVE  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &trans         &trans  &trans     &trans    &kp PAGE_DOWN  &kp PAGE_UP   &trans     &trans   &trans
+&trans  &trans  &trans     &trans             &kp DELETE        &kp BACKSPACE  &trans  &kp TILDE  &kp HASH  &trans         &trans        &trans     &trans   &trans
             >;
         };
     };
